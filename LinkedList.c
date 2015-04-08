@@ -32,3 +32,15 @@ typedef struct charRecord{
 void setCharRecordSize(int sizeToSet, charRecord theRecord){
     theRecord.size = sizeToSet;
 }
+/* final declaration for floats... */
+typedef struct floatRecord{
+    int size;
+    float data[size]
+}
+/* finally set the size again */
+void setFloatDataSize(int sizeToSet){
+    floatRecord.size = sizeToSet;
+}
+
+}
+} 
