@@ -1,0 +1,9 @@
+/*comment in structured C
+all libraries in gcc*/
+#include <stdio.h>
+#include <string.h>
+object HelloWorld{
+  string message = "helloWorld";
+  int main(){
+    printf("%s", message);
+    
